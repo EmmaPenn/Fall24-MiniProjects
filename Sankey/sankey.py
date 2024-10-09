@@ -3,24 +3,6 @@ File: sankey.py
 Author: John Rachlin
 Modified By: Emma Penn
 
-Description: A wrapper library for plotly sankey visualizations
-References:
-pandas. (n.d.). IO Tools (test, CSV, HDF5, …). pandas. https://pandas.pydata.org/docs/user_guide/io.html#json
-
-pandas. (n.d.). 10 minutes to pandas. pandas. https://pandas.pydata.org/docs/user_guide/10min.html#merge
-
-pandas. (n.d.). Working with text data. pandas. https://pandas.pydata.org/docs/user_guide/text.html#concatenation
-
-pandas. (n.d.). Intro to data structures. pandas. https://pandas.pydata.org/docs/user_guide/dsintro.html
-
-pandas. (n.d.). User Guide. pandas. https://pandas.pydata.org/docs/user_guide/index.html#user-guide
-
-
-pandas. (n.d.). Group by: split-apply-combine. pandas. https://pandas.pydata.org/docs/user_guide/groupby.html
-
-
-pandas. (n.d.). Indexing and selecting data. pandas. https://pandas.pydata.org/docs/user_guide/indexing.html#selection-by-label
-
 """
 
 import pandas as pd
