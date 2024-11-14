@@ -1,0 +1,25 @@
+================================================================== test session starts ==================================================================
+platform win32 -- Python 3.11.5, pytest-7.4.0, pluggy-1.0.0 -- C:\Users\emmac\anaconda3\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\emmac\Documents\Courses
+plugins: anyio-3.5.0, cov-4.1.0
+collected 9 items                                                                                                                                        
+
+test_propertygraph.py::test_constructor PASSED                                                                                                     [ 11%] 
+test_propertygraph.py::test_equals PASSED                                                                                                          [ 22%] 
+test_propertygraph.py::test_getitem PASSED                                                                                                         [ 33%] 
+test_propertygraph.py::test_setitem PASSED                                                                                                         [ 44%] 
+test_propertygraph.py::test_add_node PASSED                                                                                                        [ 55%] 
+test_propertygraph.py::test_add_relationship PASSED                                                                                                [ 66%] 
+test_propertygraph.py::test_get_nodes PASSED                                                                                                       [ 77%] 
+test_propertygraph.py::test_adjacent PASSED                                                                                                        [ 88%] 
+test_propertygraph.py::test_subgraph PASSED                                                                                                        [100%] 
+
+---------- coverage: platform win32, python 3.11.5-final-0 -----------
+Name                    Stmts   Miss  Cover   Missing
+-----------------------------------------------------
+propertygraph.py           93     19    80%   39, 51-54, 84-87, 108, 130-131, 148-149, 151-152, 186-192
+test_propertygraph.py     103      0   100%
+-----------------------------------------------------
+TOTAL                     196     19    90%
+
